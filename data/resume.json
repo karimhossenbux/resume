@@ -1,0 +1,173 @@
+{
+  "basics": {
+    "name": "Karim Hossenbux",
+    "label": "Developer",
+    "image": "https://pbs.twimg.com/profile_images/841284898803470336/7MtFNRui_400x400.jpg",
+    "email": "karimhossenbux@gmail.com",
+    "phone": "+34 620 588 797",
+    "website": "https://chewingcode.com",
+    "summary": "front-end, half back-end, one third designer",
+    "location": {
+      "countryCode": "ES",
+      "address": "Barcelona, Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "karimhossenbux",
+        "url": "https://www.linkedin.com/in/karimhossenbux/"
+      },
+      {
+        "network": "Twitter",
+        "username": "karimhossenbux",
+        "url": "https://twitter.com/karimhossenbux"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "EF Education First",
+      "endDate": "",
+      "highlights": [],
+      "position": "Full-Stack Developer",
+      "startDate": "2018/03",
+      "summary": null,
+      "website": "https://www.ef.com"
+    },
+    {
+      "company": "Moonitor.io",
+      "endDate": "",
+      "highlights": [],
+      "position": "Founder",
+      "startDate": "2018/01",
+      "summary": "Moonitor is a sleek and user-friendly Desktop App (MacOS, Win10, Linux) giving you a clear overview of your cryptocurrency assets. Follow your portfolio growth in real-time and don’t miss any market opportunity.",
+      "website": "https://moonitor.io"
+    },
+    {
+      "company": "Game Publishing",
+      "endDate": "2017/12",
+      "highlights": [],
+      "position": "Full-Stack Developer",
+      "startDate": "2010/08",
+      "summary": "Freelancing WordPress/Laravel work for various clients (from custom themes/plugins development, website/app from scratch, UI/UX design, server migration and so on... to consulting).\nProduct development manager for many projects.\nAlso worked on my own personal projects (web, mobile and desktop app).\n\nAll projects listed below are my own, not client work.\n",
+      "website": ""
+    },
+    {
+      "company": "Maria Barcelona",
+      "endDate": "2010/07",
+      "highlights": [],
+      "position": "Web Developer",
+      "startDate": "2010/01",
+      "summary": null,
+      "website": "https://mariabarcelona.com/"
+    },
+    {
+      "company": "Cmedia",
+      "endDate": "2009/12",
+      "highlights": [],
+      "position": "Web Developer",
+      "startDate": "2008/03",
+      "summary": null,
+      "website": "https://cmedia.es"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "WordCamp Barcelona 2015",
+      "position": "Photograph",
+      "website": "",
+      "startDate": "2015-04-30",
+      "endDate": "2015-04-30",
+      "summary": null,
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Université de Saint-Denis",
+      "area": "English license",
+      "studyType": "Licence",
+      "startDate": "2006/12",
+      "endDate": "2008/12",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée de Bellepierre",
+      "area": "BTS - Application Development and Systems Integration",
+      "studyType": "Computer Science",
+      "startDate": "2004/12",
+      "endDate": "2006/12",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Lycée Antoine Roussin",
+      "area": "Baccalauréat in Tertiary Sciences and Technologies",
+      "studyType": "Computer Science",
+      "startDate": "2004/12",
+      "endDate": "2002/12",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "keywords": ["HTML", "SCSS", "CSS", "JS", "Vue", "Nuxt.js", "Vuex", "React", "Next.js", "Tailwind", "Electron"],
+      "level": "Senior",
+      "name": "Frontend"
+    },
+    {
+      "keywords": ["PHP", "Node", "Python", "MySQL", "Serverless", "REST", "JWT"],
+      "level": "Senior",
+      "name": "Backend"
+    },
+    {
+      "keywords": ["Swift", "Figma"],
+      "level": "Senior",
+      "name": "Extra"
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "flag": "🇫🇷",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "flag": "🇺🇸",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Spanish",
+      "flag": "🇪🇸",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French Créole",
+      "flag": "🇷🇪",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music"
+    },
+    {
+      "name": "podcast"
+    },
+    {
+      "name": "dog"
+    },
+    {
+      "name": "anime"
+    },
+    {
+      "name": "video game"
+    },
+    {
+      "name": "arduino"
+    }
+  ]
+}
