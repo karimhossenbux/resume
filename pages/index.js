@@ -10,7 +10,6 @@ import { getResume } from '../utils/resume'
 
 export default function Home() {
   const resume = getResume()
-  console.log(resume)
 
   return (
     <div className="relative">

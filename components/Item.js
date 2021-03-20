@@ -3,7 +3,7 @@ import Title from './Title'
 
 const Item = (props) => {
   return (
-      <div className="mb-4 pl-4 border-l-4 border-gray-200">
+      <div className="mb-4 pl-4 border-l-4 border-gray-200 dark:border-gray-600">
         <div className="tracking-tight flex items-baseline justify-between">
           <div>
             <span className="font-extrabold mr-1">{props.title}</span>

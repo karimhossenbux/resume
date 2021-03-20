@@ -10,14 +10,14 @@ const About = (props) => {
           <h1 className="text-lg md:text-3xl font-extrabold tracking-tight">
             {info.name}
           </h1>
-          <h2 className="text-xs uppercase font-medium text-gray-500">
+          <h2 className="text-xs uppercase font-bold text-green-500">
             {info.label}
           </h2>
         </div>
 
         <img className="my-2 mx-4 w-16 rounded-full ring-4 ring-green-400 ring-offset-2" src={info.image} alt={`Picture of ${info.name}`} />
 
-        <div className="m-2 text-xs text-gray-600">
+        <div className="m-2 text-xs text-gray-500">
           <div>
             {info.email}
           </div>

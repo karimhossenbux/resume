@@ -15,7 +15,10 @@ const Skills = (props) => {
               {item.name}
             </h3>
             {item.keywords.map((keyword, kindex) => 
-              <span className="inline-flex mr-2 text-xs font-semibold text-opacity-70 text-black border rounded border-purple-100 px-1 bg-purple-50" key={kindex}>
+              <span
+                className="inline-flex mr-2 text-xs font-semibold text-opacity-70 text-black border px-1 rounded border-purple-100 bg-purple-50 dark:border-gray-900 dark:bg-gray-600"
+                key={kindex}
+              >
                 {keyword}
               </span>
             )}
