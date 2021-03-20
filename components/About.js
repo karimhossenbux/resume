@@ -4,10 +4,10 @@ const About = (props) => {
   const info = props.info
 
   return (
-    <div className="section">
+    <div className="section mt-2">
       <div className="flex items-center justify-center">
         <div className="m-2 text-right">
-          <h1 className="text-3xl font-extrabold tracking-tight">
+          <h1 className="text-lg md:text-3xl font-extrabold tracking-tight">
             {info.name}
           </h1>
           <h2 className="text-xs uppercase font-medium text-gray-500">

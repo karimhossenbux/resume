@@ -15,6 +15,7 @@ const Work = (props) => {
             key={index}
             title={item.position}
             location={item.company}
+            link={item.website}
             startDate={item.startDate}
             endDate={item.endDate}
             content={item.summary}
