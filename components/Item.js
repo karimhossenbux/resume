@@ -3,7 +3,7 @@ import Title from './Title'
 
 const Item = (props) => {
   return (
-      <div className="mb-4 pl-4 border-l-4 border-gray-200 dark:border-gray-600">
+      <div className={`mb-4 pl-4 border-l-4 border-${props.endDate ? 'gray-200' : 'green-100'} dark:border-${props.endDate ? 'gray-600' : 'green-200'}`}>
         <div className="tracking-tight flex items-baseline justify-between">
           <div>
             <span className="font-extrabold mr-1">{props.title}</span>
@@ -20,7 +20,7 @@ const Item = (props) => {
             </small>
           </div>
 
-          <span className="text-xs text-gray-400 font-mono md:w-auto w-12 text-center">
+          <span className="text-xs text-gray-400 font-mono md:w-auto w-12 text-center ml-2">
             <span className="block md:inline">{props.startDate}</span>
             <span className="px-1 hidden md:inline">-</span>
             <span>{props.endDate ? props.endDate : 'Present'}</span>
@@ -28,9 +28,7 @@ const Item = (props) => {
         </div>
 
         { props.content &&
-          <p className="text-sm mt-1 text-gray-600 w-3/4">
-            {props.content}
-          </p>
+          <p className="text-sm mt-1 text-gray-600 dark:text-gray-500 w-3/4" dangerouslySetInnerHTML={{__html: props.content}}></p>
         }
       </div>
   )

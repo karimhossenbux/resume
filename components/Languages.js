@@ -13,9 +13,9 @@ const Languages = (props) => {
             <div className="mr-2 text-sm">
               {item.flag}
             </div>
-            <div>
+            <div className="text-sm">
               <span className="mr-1">{item.language}</span>
-              <small className="text-gray-400">[{item.fluency}]</small>
+              <small className="text-gray-400 text-sm">[{item.fluency}]</small>
             </div>
           </div>
         )}
