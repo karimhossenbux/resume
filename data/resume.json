@@ -19,8 +19,8 @@
       },
       {
         "network": "Twitter",
-        "username": "karimhossenbux",
-        "url": "https://twitter.com/karimhossenbux"
+        "username": "chewingcode",
+        "url": "https://twitter.com/chewingcode"
       }
     ]
   },
@@ -31,7 +31,7 @@
       "highlights": [],
       "position": "Full-Stack Developer",
       "startDate": "2018/03",
-      "summary": "",
+      "summary": "Revamped and optimized the main <a class='underline' target='_blank' href='https://www.ef.com/wwen/blog/language/'>EF WordPress Go Blog</a> (50+ languages and 2+ millions in organic traffic).<br> Migrated WP multisites to Next.js (React) + Storyblok. <br> Involved in more Next.js projects to implement new features requests from stakeholder.",
       "website": "https://www.ef.com"
     },
     {
@@ -40,17 +40,17 @@
       "highlights": [],
       "position": "Founder",
       "startDate": "2018/01",
-      "summary": "",
+      "summary": "Built a cryptocurrency portfolio tracker compatible with macOS, Windows and Linux.<br> Managed every aspect of the App: development, design, sales/licensing and even support 🤪",
       "website": "https://moonitor.io"
     },
     {
-      "company": "Game Publishing",
+      "company": "Game Publishing / Exoty",
       "endDate": "2017/12",
       "highlights": [],
       "position": "Full-Stack Developer",
       "startDate": "2010/08",
-      "summary": "",
-      "website": ""
+      "summary": "Managed an entire network of gambling websites (400+), using WordPress and Laravel.<br> Implemented around 100 websites from scratch based on the stakeholder designs and requirements.",
+      "website": "https://www.exoty.com"
     },
     {
       "company": "Maria Barcelona",
@@ -58,7 +58,7 @@
       "highlights": [],
       "position": "Web Developer",
       "startDate": "2010/01",
-      "summary": null,
+      "summary": "Worked on different clients websites to implement new features on both front-end and back-end (Liceu Theatre, Knorr, Moventis).",
       "website": "https://mariabarcelona.com/"
     },
     {
@@ -67,7 +67,7 @@
       "highlights": [],
       "position": "Web Developer",
       "startDate": "2008/03",
-      "summary": null,
+      "summary": "Managed an entire network of gambling websites (1200+), using WordPress, Drupal and static/dynamic stack.<br>Developed a centralized back-end for all networks to serve dynamically widgets and ads.",
       "website": "https://cmedia.es"
     }
   ],
@@ -118,12 +118,12 @@
       "name": "Frontend"
     },
     {
-      "keywords": ["PHP", "Node", "Python", "MySQL", "Serverless", "REST", "JWT"],
+      "keywords": ["PHP", "Node", "MySQL", "Serverless", "API", "REST", "JWT"],
       "level": "Senior",
       "name": "Backend"
     },
     {
-      "keywords": ["Swift", "Figma", "CSS/SVG Animation"],
+      "keywords": ["Swift", "Python", "Figma", "Sketch", "CSS/SVG Animation"],
       "level": "Senior",
       "name": "Extra"
     }
