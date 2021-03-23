@@ -6,6 +6,7 @@ import Skills from '../components/Skills'
 import Educations from '../components/Educations'
 import Languages from '../components/Languages'
 import Interests from '../components/Interests'
+import Footer from '../components/Footer'
 import { getResume } from '../utils/resume'
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
 
-        <main>
+        <main className="mb-12">
           <About info={resume.basics} />
           <Skills items={resume.skills} />
           <Work items={resume.work} />
@@ -29,6 +30,8 @@ export default function Home() {
           <Languages items={resume.languages} />
           <Interests items={resume.interests} />
         </main>
+
+        <Footer />
       </div>
     </div>
   )
