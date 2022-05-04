@@ -4,7 +4,6 @@
     "label": "Developer / semi-designer",
     "image": "https://pbs.twimg.com/profile_images/841284898803470336/7MtFNRui_400x400.jpg",
     "email": "karimhossenbux@gmail.com",
-    "phone": "+34 620 588 797",
     "website": "https://chewingcode.com",
     "summary": "front-end, half back-end, one third designer",
     "location": {
@@ -33,6 +32,15 @@
       "startDate": "2018/03",
       "summary": "Revamped and optimized the main <a class='underline' target='_blank' href='https://www.ef.com/wwen/blog/language/'>EF WordPress Go Blog</a> (50+ languages and 2+ millions in organic traffic).<br> Migrated WP multisites to Next.js (React) + Storyblok. <br> Involved in more Next.js projects to implement new features requests from stakeholder.",
       "website": "https://www.ef.com"
+    },
+    {
+      "company": "Merch.dev",
+      "endDate": "",
+      "highlights": [],
+      "position": "Founder",
+      "startDate": "2022/04",
+      "summary": "Shopify store. Trying to get more involved in design on my free time.",
+      "website": "https://merch.dev"
     },
     {
       "company": "Moonitor.io",
@@ -113,17 +121,43 @@
   ],
   "skills": [
     {
-      "keywords": ["HTML", "SCSS", "CSS", "JS", "Vue", "Nuxt.js", "Vuex", "React", "Next.js", "Tailwind", "Electron"],
+      "keywords": [
+        "HTML",
+        "SCSS",
+        "CSS",
+        "JS",
+        "React",
+        "Next.js",
+        "Vue",
+        "Vuex",
+        "Nuxt.js",
+        "Tailwind",
+        "Electron"
+      ],
       "level": "Senior",
       "name": "Frontend"
     },
     {
-      "keywords": ["PHP", "Node", "MySQL", "Serverless", "API", "REST", "JWT"],
+      "keywords": [
+        "PHP",
+        "Node",
+        "MySQL",
+        "Serverless",
+        "API",
+        "REST",
+        "JWT"
+      ],
       "level": "Senior",
       "name": "Backend"
     },
     {
-      "keywords": ["Swift", "Python", "Figma", "Sketch", "CSS/SVG Animation"],
+      "keywords": [
+        "Swift",
+        "Python",
+        "Figma",
+        "Sketch",
+        "CSS/SVG Animation"
+      ],
       "level": "Senior",
       "name": "Extra"
     }
@@ -161,16 +195,19 @@
       "name": "dog"
     },
     {
+      "name": "walking"
+    },
+    {
       "name": "anime"
     },
     {
       "name": "video game"
     },
     {
-      "name": "arduino"
+      "name": "longboard"
     },
     {
-      "name": "3d printing"
+      "name": "design"
     }
   ]
 }
