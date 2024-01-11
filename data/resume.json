@@ -2,7 +2,7 @@
   "basics": {
     "name": "Karim Hossenbux",
     "label": "Developer / semi-designer",
-    "image": "https://pbs.twimg.com/profile_images/841284898803470336/7MtFNRui_400x400.jpg",
+    "image": "https://avatars.githubusercontent.com/u/584224",
     "email": "karimhossenbux@gmail.com",
     "website": "https://chewingcode.com",
     "summary": "front-end, half back-end, one third designer",
@@ -30,7 +30,7 @@
       "highlights": [],
       "position": "Full-Stack Developer",
       "startDate": "2018/03",
-      "summary": "Revamped and optimized the main <a class='underline' target='_blank' href='https://www.ef.com/wwen/blog/language/'>EF WordPress Go Blog</a> (50+ languages and 2+ millions in organic traffic).<br> Migrated WP multisites to Next.js (React) + Storyblok. <br> Involved in more Next.js projects to implement new features requests from stakeholder.",
+      "summary": "Revamped and optimized the main <a class='underline' target='_blank' href='https://www.ef.com/wwen/blog/language/'>EF Go Blog</a> (50+ languages and 2+ millions in organic traffic).<br> Migrated WP multisites to Next.js (React) + Storyblok. <br> Managed both maintenance and development of various Next.js projects, implementing new features based on stakeholder requests.",
       "website": "https://www.ef.com"
     },
     {
@@ -122,27 +122,28 @@
   "skills": [
     {
       "keywords": [
-        "HTML",
-        "SCSS",
-        "CSS",
         "JS",
         "React",
         "Next.js",
-        "Vue",
-        "Vuex",
-        "Nuxt.js",
         "Tailwind",
-        "Electron"
+        "Nuxt.js",
+        "Vuex",
+        "Vue",
+        "Electron",
+        "HTML",
+        "SCSS",
+        "CSS"
       ],
       "level": "Senior",
       "name": "Frontend"
     },
     {
       "keywords": [
-        "PHP",
         "Node",
+        "PostgreSQL",
         "MySQL",
         "Serverless",
+        "PHP",
         "API",
         "REST",
         "JWT"
@@ -193,6 +194,9 @@
     },
     {
       "name": "dog"
+    },
+    {
+      "name": "running"
     },
     {
       "name": "walking"
