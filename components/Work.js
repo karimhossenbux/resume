@@ -17,7 +17,7 @@ const Work = ({ items, setHighlightedSkills }) => {
             location={item.company}
             link={item.website}
             startDate={item.startDate}
-            endDate={item.endDate}
+            endDate={item?.endDate || null}
             content={item.summary}
             skills={item.skills}
             setHighlightedSkills={setHighlightedSkills}
