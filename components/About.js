@@ -27,11 +27,17 @@ const About = (props) => {
 
         <div className="relative flex my-2 mx-4">
           <Link href={twitter.url} className="relative z-10">
-            <img
+            <span className="inline-flex items-center justify-center w-20 h-20 md:w-16 md:h-16 rounded-full ring-4 ring-green-400 ring-offset-2 dark:ring-offset-gray-900 text-center text-4xl font-black">
+              {info.name
+                .split(' ')
+                .map((n) => n[0])
+                .join('')}
+            </span>
+            {/* <img
               className="w-20 h-20 md:w-16 md:h-16 rounded-full ring-4 ring-green-400 ring-offset-2 dark:ring-offset-gray-900"
               src={info.image}
               alt={`Picture of ${info.name}`}
-            />
+            /> */}
           </Link>
           <div className="absolute inline-flex w-20 h-20 md:w-16 md:h-16 rounded-full ring-8 ring-green-400 animate-ping opacity-20"></div>
         </div>
