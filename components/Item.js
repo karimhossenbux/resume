@@ -13,8 +13,6 @@ const Item = (props) => {
     }
   };
 
-  console.log(props.endDate);
-
   return (
     <div
       className={`mb-4 pl-4 border-l-4 border-${
