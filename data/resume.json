@@ -45,14 +45,35 @@
       "website": "https://www.ef.com",
       "skills": [
         "TypeScript",
+        "JavaScript",
         "React",
+        "RSC",
         "Next.js",
         "Tailwind",
+        "SCSS",
+        "Vue",
+        "CSS/SVG Animation",
+        "UI/UX",
+        "p5.js",
+        "Jest",
+        "Cypress",
+        "Serverless",
+        "Architect Serverless",
+        "AWS SAM",
+        "Terraform",
+        "Lambda",
+        "S3",
+        "CloudFront",
+        "Headless CMS (Storyblok)",
+        "API",
+        "Node",
+        "PHP",
         "Storyblok",
         "AWS",
         "Serverless",
-        "API",
-        "RESTful"
+        "RESTful",
+        "Figma",
+        "JIRA"
       ]
     },
     {
@@ -65,7 +86,14 @@
         "Launched and oversaw operations for a Shopify e-commerce platform tailored to developers, offering a large range of merchandise.",
         "Fun side project to get better at design and marketing."
       ],
-      "website": "https://merch.dev"
+      "website": "https://merch.dev",
+      "skills": [
+        "JavaScript",
+        "Node",
+        "Shopify",
+        "Figma",
+        "Sketch"
+      ]
     },
     {
       "company": "Moonitor.io",
@@ -77,7 +105,19 @@
         "Developed a cryptocurrency portfolio tracker compatible with macOS, Windows, and Linux, currently expanding to iOS/Android using React Native.",
         "Managed all aspects of the app, including development, design, sales/licensing, and support."
       ],
-      "website": "https://moonitor.io"
+      "website": "https://moonitor.io",
+      "skills": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "React Native",
+        "Tailwind",
+        "Electron",
+        "Prisma",
+        "PostgreSQL",
+        "Figma"
+      ]
     },
     {
       "company": "Game Publishing / Exoty",
@@ -88,7 +128,16 @@
       "summary": [
         "Managed a network of 400+ gambling websites, implementing over 100 sites from scratch based on stakeholder requirements."
       ],
-      "website": "https://www.exoty.com"
+      "website": "https://www.exoty.com",
+      "skills": [
+        "JavaScript",
+        "SCSS",
+        "CSS/SVG Animation",
+        "UI/UX",
+        "MySQL",
+        "PHP",
+        "Laravel"
+      ]
     },
     {
       "company": "Maria Barcelona",
@@ -100,7 +149,15 @@
         "Implemented new features on various client websites, including Liceu Theatre, Knorr, and Moventis.",
         "Contributed to both front-end and back-end development tasks."
       ],
-      "website": "https://mariabarcelona.com/"
+      "website": "https://mariabarcelona.com/",
+      "skills": [
+        "JavaScript",
+        "SCSS",
+        "CSS/SVG Animation",
+        "UI/UX",
+        "MySQL",
+        "PHP"
+      ]
     },
     {
       "company": "Cmedia",
@@ -112,7 +169,15 @@
         "Managed a network of 1200+ gambling websites using WordPress, Drupal, and dynamic/static stack.",
         "Developed a centralized backend for serving dynamic contents, widgets and ads across all networks."
       ],
-      "website": "https://cmedia.es"
+      "website": "https://cmedia.es",
+      "skills": [
+        "JavaScript",
+        "SCSS",
+        "CSS/SVG Animation",
+        "UI/UX",
+        "MySQL",
+        "PHP"
+      ]
     }
   ],
   "volunteer": [
@@ -132,27 +197,21 @@
       "area": "English degree",
       "studyType": "Licence",
       "startDate": "2006/12",
-      "endDate": "2008/12",
-      "gpa": "",
-      "courses": []
+      "endDate": "2008/12"
     },
     {
       "institution": "Lycée de Bellepierre",
       "area": "BTS - Application Development and Systems Integration",
       "studyType": "Computer Science",
       "startDate": "2004/12",
-      "endDate": "2006/12",
-      "gpa": "",
-      "courses": []
+      "endDate": "2006/12"
     },
     {
       "institution": "Lycée Antoine Roussin",
       "area": "Baccalauréat in Tertiary Sciences and Technologies",
       "studyType": "Computer Science",
       "startDate": "2004/12",
-      "endDate": "2002/12",
-      "gpa": "",
-      "courses": []
+      "endDate": "2002/12"
     }
   ],
   "skills": [
@@ -165,6 +224,7 @@
         "Next.js",
         "React Native",
         "Tailwind",
+        "SCSS",
         "Nuxt.js",
         "Vuex",
         "Vue",
@@ -173,10 +233,7 @@
         "UI/UX",
         "p5.js",
         "Jest",
-        "Cypress",
-        "HTML",
-        "SCSS",
-        "CSS"
+        "Cypress"
       ],
       "name": "Frontend"
     },
@@ -190,12 +247,12 @@
         "S3",
         "CloudFront",
         "Headless CMS (Storyblok)",
+        "Prisma",
         "PostgreSQL",
         "MySQL",
         "Node",
         "PHP",
         "Laravel",
-        "API",
         "RESTful"
       ],
       "name": "Backend"

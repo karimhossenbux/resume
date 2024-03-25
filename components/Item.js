@@ -1,11 +1,24 @@
 import Link from 'next/link';
 
 const Item = (props) => {
+  const handleMouseEnter = () => {
+    if (props?.setHighlightedSkills) {
+      props.setHighlightedSkills(props?.skills);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    if (props?.setHighlightedSkills) {
+      props.setHighlightedSkills(null);
+    }
+  };
   return (
     <div
       className={`mb-4 pl-4 border-l-4 border-${
         props.endDate ? 'gray-200' : 'green-100'
       } dark:border-${props.endDate ? 'gray-600' : 'green-200'}`}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className="tracking-tight flex items-baseline justify-between">
         <div>

@@ -1,16 +1,17 @@
-import Head from 'next/head'
-import DarkMode from '../components/DarkMode'
-import About from '../components/About'
-import Work from '../components/Work'
-import Skills from '../components/Skills'
-import Educations from '../components/Educations'
-import Languages from '../components/Languages'
-import Interests from '../components/Interests'
-import Footer from '../components/Footer'
-import { getResume } from '../utils/resume'
+import Head from 'next/head';
+import DarkMode from '../components/DarkMode';
+import About from '../components/About';
+import Work from '../components/Work';
+import Skills from '../components/Skills';
+import HighlightedSkills from '../components/HighlightedSkills';
+import Educations from '../components/Educations';
+import Languages from '../components/Languages';
+import Interests from '../components/Interests';
+import Footer from '../components/Footer';
+import { getResume } from '../utils/resume';
 
 export default function Home() {
-  const resume = getResume()
+  const resume = getResume();
 
   return (
     <div className="relative">
@@ -24,8 +25,7 @@ export default function Home() {
 
         <main className="mb-12">
           <About info={resume.basics} />
-          <Skills items={resume.skills} />
-          <Work items={resume.work} />
+          <HighlightedSkills skills={resume.skills} works={resume.work} />
           <Educations items={resume.education} />
           <Languages items={resume.languages} />
           <Interests items={resume.interests} />
@@ -34,5 +34,5 @@ export default function Home() {
         <Footer />
       </div>
     </div>
-  )
+  );
 }
