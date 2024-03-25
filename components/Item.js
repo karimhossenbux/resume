@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Title from './Title';
 
 const Item = (props) => {
   return (
@@ -29,12 +28,14 @@ const Item = (props) => {
         </span>
       </div>
 
-      {props.content && (
-        <p
-          className="text-sm mt-1 text-gray-600 dark:text-gray-500 w-3/4"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        ></p>
-      )}
+      {props.content?.length &&
+        props.content.map((item, i) => (
+          <p
+            className="text-sm mt-1 text-gray-600 dark:text-gray-500 w-3/4"
+            dangerouslySetInnerHTML={{ __html: item }}
+            key={i}
+          ></p>
+        ))}
     </div>
   );
 };
