@@ -16,7 +16,7 @@ const Item = (props) => {
   return (
     <div
       className={`mb-4 pl-4 border-l-4 border-${
-        !props.endDate ? 'green-200' : 'gray-100'
+        props.endDate === null ? 'green-200' : 'gray-100'
       } dark:border-${props.endDate ? 'gray-600' : 'green-200'}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
