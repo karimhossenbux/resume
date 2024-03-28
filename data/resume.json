@@ -77,25 +77,6 @@
       ]
     },
     {
-      "company": "Merch.dev",
-      "endDate": "",
-      "highlights": [],
-      "position": "Founder",
-      "startDate": "2022/04",
-      "summary": [
-        "Launched and oversaw operations for a Shopify e-commerce platform tailored to developers, offering a large range of merchandise.",
-        "Fun side project to get better at design and marketing."
-      ],
-      "website": "https://merch.dev",
-      "skills": [
-        "JavaScript",
-        "Node",
-        "Shopify",
-        "Figma",
-        "Sketch"
-      ]
-    },
-    {
       "company": "Moonitor.io",
       "endDate": "",
       "highlights": [],
@@ -117,6 +98,25 @@
         "Prisma",
         "PostgreSQL",
         "Figma"
+      ]
+    },
+    {
+      "company": "Merch.dev",
+      "endDate": "2024/02",
+      "highlights": [],
+      "position": "Founder",
+      "startDate": "2022/04",
+      "summary": [
+        "Launched and oversaw operations for a Shopify e-commerce platform tailored to developers, offering a large range of merchandise.",
+        "Fun side project to get better at design and marketing."
+      ],
+      "website": "https://merch.dev",
+      "skills": [
+        "JavaScript",
+        "Node",
+        "Shopify",
+        "Figma",
+        "Sketch"
       ]
     },
     {
