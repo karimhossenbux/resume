@@ -15,9 +15,9 @@ const Item = (props) => {
 
   return (
     <div
-      className={`mb-4 pl-4 border-l-4 border-${
-        props.endDate === null ? 'green-200' : 'gray-100'
-      } dark:border-${props.endDate ? 'gray-600' : 'green-200'}`}
+      className={`mb-4 pl-4 border-l-4 print:mb-6 ${
+        props.endDate ? 'border-gray100' : 'border-green-200'
+      } ${props.endDate ? 'dark:border-gray-600' : 'dark:border-green-200'}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
@@ -35,9 +35,9 @@ const Item = (props) => {
           </small>
         </div>
 
-        <span className="text-xs text-gray-400 font-mono md:w-auto w-12 text-center ml-2">
+        <span className="text-xs text-gray-400 font-mono md:w-auto w-12 text-center ml-2 print:mr-8 print:flex">
           <span className="block md:inline">{props.startDate}</span>
-          <span className="px-1 hidden md:inline">-</span>
+          <span className="px-1 md:inline hidden print:block">-</span>
           <span>{props.endDate ? props.endDate : 'Present'}</span>
         </span>
       </div>
@@ -45,7 +45,7 @@ const Item = (props) => {
       {props.content?.length &&
         props.content.map((item, i) => (
           <p
-            className="text-sm mt-1 text-gray-600 dark:text-gray-500 w-3/4"
+            className="text-sm mt-1 text-gray-600 dark:text-gray-500 w-3/4 print:w-[88%]"
             dangerouslySetInnerHTML={{ __html: item }}
             key={i}
           ></p>

@@ -10,22 +10,27 @@ const Skills = ({ items, highlightedSkills }) => {
 
       <div className="md:flex justify-between pl-4">
         {items.map((item, index) => (
-          <div className="md:w-1/3 px-4 mb-4 md:mb-0" key={index}>
-            <h3 className="text-xs font-semibold uppercase mb-1">
+          <div
+            className="md:w-1/3 px-4 mb-4 md:mb-0 print:pr-0 print:flex print:items-baseline print:gap-2"
+            key={index}
+          >
+            <h3 className="text-xs font-semibold uppercase mb-1 print:min-w-20">
               {item.name}
             </h3>
-            {item.keywords.map((keyword, kindex) => (
-              <span
-                className={`inline-flex mr-2 text-xs font-semibold text-opacity-70 text-black border px-1 rounded border-purple-100 dark:border-gray-900 transition-colors ${
-                  highlightedSkills?.includes(keyword)
-                    ? 'bg-green-400'
-                    : 'dark:bg-gray-600 bg-purple-50'
-                }`}
-                key={kindex}
-              >
-                {keyword}
-              </span>
-            ))}
+            <div>
+              {item.keywords.map((keyword, kindex) => (
+                <span
+                  className={`inline-flex mr-2 text-xs font-semibold text-opacity-70 text-black border px-1 rounded border-purple-100 dark:border-gray-900 transition-colors ${
+                    highlightedSkills?.includes(keyword)
+                      ? 'bg-green-400'
+                      : 'dark:bg-gray-600 bg-purple-50'
+                  }`}
+                  key={kindex}
+                >
+                  {keyword}
+                </span>
+              ))}
+            </div>
           </div>
         ))}
       </div>

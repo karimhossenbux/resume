@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Title = (props) => {
   return (
-    <footer className="text-center text-xs">
+    <footer className="text-center text-xs print:hidden">
       <Link
         href="https://github.com/karimhossenbux/resume"
         className="text-gray-400 dark:text-gray-700"
