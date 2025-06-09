@@ -35,11 +35,13 @@
       "position": "Senior Software Engineer",
       "startDate": "2018/03",
       "summary": [
-        "Led performance and reliability efforts, including server-side rendering, image optimization, and build time reduction by 100%, resulting in 50% fewer production incidents year-over-year.",
-        "Owned and evolved the EF Go Blog, a global content platform supporting 50+ languages and 2M+ monthly visits. Migrated from WordPress multisite to a modern Next.js + Storyblok stack, improving performance by ~80% and Core Web Vitals scores.",
+        "Led performance and reliability efforts, including server-side rendering, image optimization, and build time reduction by 100%, resulting in fewer production incidents year-over-year.",
+        "Owned and evolved the EF Go Blog, a global content platform supporting 50+ languages and 2M+ monthly visits. Migrated from WordPress multisite (EC2 + load balancers) to a modern Next.js + Storyblok stack, improving performance by ~80% and Core Web Vitals scores.",
+        "Implemented and maintained cloud infrastructure using AWS (Lambda, S3, CloudWatch, CloudFront, build pipelines) using Terraform, ensuring high availability and scalability for all APIs and applications.",
         "Co-developed a React + Tailwind CSS design system used across EF platforms for consistent branding and faster delivery.",
         "Designed and shipped a localization tool integrated with Storyblok’s API, streamlining translation management across dozens of languages.",
-        "Collaborated with product owners, UX designers, and QA to translate Figma designs and feedback into responsive Next.js applications."
+        "Built an AI agent leveraging Storyblok’s component schema to generate landing page designs and content, enabling editors to create pages faster without developer assistance.",
+        "Mentored junior developers through code reviews, pair programming, and architecture discussions, contributing to team growth and code quality."
       ],
       "website": "https://www.ef.com",
       "skills": [
@@ -58,7 +60,6 @@
         "Cypress",
         "Serverless",
         "Architect Serverless",
-        "AWS SAM",
         "Terraform",
         "Lambda",
         "S3",
@@ -72,7 +73,38 @@
         "Serverless",
         "RESTful",
         "Figma",
-        "JIRA"
+        "JIRA",
+        "AI/ML",
+        "OpenAI API",
+        "EC2",
+        "CloudWatch"
+      ]
+    },
+    {
+      "company": "Meetingassistant.co",
+      "endDate": "",
+      "highlights": [],
+      "position": "Senior Software Engineer",
+      "startDate": "2025/05",
+      "summary": [
+        "Built an AI-powered meeting tool that transcribes and generates action items from voice recordings using OpenAI and Deepgram APIs",
+        "Integrated seamless voice automated transcription pipelines, and chat-based hints UX for users to interact with their meeting notes"
+      ],
+      "website": "https://www.meetingassistant.co/",
+      "skills": [
+        "TypeScript",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Tailwind",
+        "Prisma",
+        "PostgreSQL",
+        "AI/ML",
+        "OpenAI API",
+        "Deepgram API",
+        "Serverless",
+        "Node",
+        "UI/UX"
       ]
     },
     {
@@ -96,7 +128,8 @@
         "Electron",
         "Prisma",
         "PostgreSQL",
-        "Figma"
+        "Figma",
+        "Serverless"
       ]
     },
     {
@@ -130,8 +163,7 @@
       "position": "Web Developer",
       "startDate": "2010/01",
       "summary": [
-        "Developed responsive marketing sites for clients like Liceu Theatre, Knorr, and Moventis, ensuring pixel-perfect design implementation.",
-        "Worked closely with designers and PMs in an agency setting, meeting tight deadlines and launch schedules."
+        "Developed responsive marketing sites for clients like Liceu Theatre, Knorr, and Moventis working closely with designers and PMs in an agency setting."
       ],
       "website": "https://mariabarcelona.com/",
       "skills": [
@@ -179,22 +211,22 @@
       "institution": "Université de Saint-Denis",
       "area": "English degree",
       "studyType": "Licence",
-      "startDate": "2006/12",
-      "endDate": "2008/12"
+      "startDate": "2006",
+      "endDate": "2008"
     },
     {
       "institution": "Lycée de Bellepierre",
       "area": "Application development & systems integration",
       "studyType": "Computer Science",
-      "startDate": "2004/12",
-      "endDate": "2006/12"
+      "startDate": "2004",
+      "endDate": "2006"
     },
     {
       "institution": "Lycée Antoine Roussin",
       "area": "Baccalauréat in sciences and technologies",
       "studyType": "Computer Science",
-      "startDate": "2002/12",
-      "endDate": "2004/12"
+      "startDate": "2002",
+      "endDate": "2004"
     }
   ],
   "skills": [
@@ -224,12 +256,17 @@
       "keywords": [
         "Serverless",
         "Architect Serverless",
-        "AWS SAM",
+        "AWS",
         "Terraform",
         "Lambda",
         "S3",
         "CloudFront",
+        "CloudWatch",
+        "EC2",
         "Headless CMS (Storyblok)",
+        "AI/ML",
+        "OpenAI API",
+        "Deepgram API",
         "Prisma",
         "PostgreSQL",
         "MySQL",

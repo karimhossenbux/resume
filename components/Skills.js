@@ -11,7 +11,7 @@ const Skills = ({ items, highlightedSkills }) => {
       <div className="md:flex justify-between pl-4">
         {items.map((item, index) => (
           <div
-            className="md:w-1/3 px-4 mb-4 md:mb-0 print:pr-0 print:flex print:items-baseline print:gap-2"
+            className="md:w-1/3 pl-4 mb-4 md:mb-0 print:pr-0 print:flex print:items-baseline print:gap-2"
             key={index}
           >
             <h3 className="text-xs font-semibold uppercase mb-1 print:min-w-20">
