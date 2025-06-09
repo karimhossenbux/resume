@@ -8,7 +8,7 @@
     "summary": [
       "Full-stack Developer with a strong focus on the frontend.",
       "Detail-oriented, I have a passion for crafting user-friendly interfaces.",
-      "Dedicated on delivering clean, efficient, and maintainable code."
+      "Dedicated on delivering clean, efficient, and maintainable solutions."
     ],
     "location": {
       "countryCode": "ES",
@@ -35,11 +35,11 @@
       "position": "Senior Software Engineer",
       "startDate": "2018/03",
       "summary": [
-        "Led performance and reliability efforts, including implementing server-side rendering, optimizing image delivery, reducing build times by 100%, and collaborating on comprehensive end-to-end and unit test coverage resulting in 50% fewer production incidents year-over-year",
-        "Own and deliver evolution of the EF Go Blog, a global content platform supporting 50+ languages and over 2 million monthly visits. Led the migration from a WordPress multisite stack to a modern Next.js + Storyblok architecture, boosting site performance by ~80% and improving Core Web Vitals scores",
-        "Co-developed an in-house React + Tailwind CSS design system used across multiple EF properties to ensure consistent branding and accelerate feature delivery",
-        "Designed and shipped a robust localization tool integrated with Storyblok’s API empowering editors to manage translations across dozens of languages with improved workflow efficiency",
-        "Collaborated closely with product owners, UX designers, and QA to interpret Figma mocks and stakeholder feedback into working Next.js applications across desktop and mobile"
+        "Led performance and reliability efforts, including server-side rendering, image optimization, and build time reduction by 100%, resulting in 50% fewer production incidents year-over-year.",
+        "Owned and evolved the EF Go Blog, a global content platform supporting 50+ languages and 2M+ monthly visits. Migrated from WordPress multisite to a modern Next.js + Storyblok stack, improving performance by ~80% and Core Web Vitals scores.",
+        "Co-developed a React + Tailwind CSS design system used across EF platforms for consistent branding and faster delivery.",
+        "Designed and shipped a localization tool integrated with Storyblok’s API, streamlining translation management across dozens of languages.",
+        "Collaborated with product owners, UX designers, and QA to translate Figma designs and feedback into responsive Next.js applications."
       ],
       "website": "https://www.ef.com",
       "skills": [
@@ -82,7 +82,8 @@
       "position": "Founder",
       "startDate": "2018/01",
       "summary": [
-        "Full product lifecycle lead: architecture, frontend/backend code, UI/UX design, licensing negotiations, and end-user support"
+        "Built a cross-platform cryptocurrency portfolio tracker (macOS, Windows, Linux), with an active roadmap expanding to iOS/Android via React Native",
+        "Full product lifecycle lead: architecture, frontend/backend code, UI/UX design, licensing, and user support"
       ],
       "website": "https://moonitor.io",
       "skills": [
@@ -105,10 +106,10 @@
       "position": "Full-Stack Developer",
       "startDate": "2010/08",
       "summary": [
-        "Designed and launched over 100 custom gambling websites tailored for mobile and desktop platforms",
-        "Developed a custom CMS and reusable theming system to streamline deployment across Exoty’s white-label clients, cutting launch time by 100%",
-        "Integrated payment gateways, real-time multiplayer features, and live chat components to support competitive social games",
-        "Implemented monitoring and logging systems to detect broken pages, expired domains, and dropped rankings, preserving SEO performance across the network."
+        "Designed and launched 100+ custom gambling websites for desktop and mobile.",
+        "Built a custom CMS and reusable theming system, cutting launch time by 100%.",
+        "Integrated payment gateways, real-time multiplayer, and live chat for social games.",
+        "Implemented monitoring systems to detect broken pages, expired domains, and dropped rankings to maintain SEO."
       ],
       "website": "https://www.exoty.com",
       "skills": [
@@ -129,8 +130,8 @@
       "position": "Web Developer",
       "startDate": "2010/01",
       "summary": [
-        "Developed responsive marketing sites for high-profile clients including Liceu Theatre, Knorr, and Moventis, ensuring pixel-perfect fidelity to design specs",
-        "Collaborated directly with designers and PMs in an agency setting, working under tight deadlines and launch schedules"
+        "Developed responsive marketing sites for clients like Liceu Theatre, Knorr, and Moventis, ensuring pixel-perfect design implementation.",
+        "Worked closely with designers and PMs in an agency setting, meeting tight deadlines and launch schedules."
       ],
       "website": "https://mariabarcelona.com/",
       "skills": [
@@ -149,7 +150,7 @@
       "position": "Web Developer",
       "startDate": "2008/03",
       "summary": [
-        "Maintained and scaled a network of 1,200+ gambling sites built with WordPress and Drupal, automating content updates with cron jobs and ad serving systems"
+        "Maintained and scaled a network of 1,200+ gambling sites using WordPress and Drupal, automating content updates with cron jobs and ad systems."
       ],
       "website": "https://cmedia.es",
       "skills": [
@@ -165,7 +166,7 @@
   "volunteer": [
     {
       "organization": "WordCamp Barcelona 2015",
-      "position": "Photograph",
+      "position": "Photographer",
       "website": "",
       "startDate": "2015-04-30",
       "endDate": "2015-04-30",
@@ -192,8 +193,8 @@
       "institution": "Lycée Antoine Roussin",
       "area": "Baccalauréat in sciences and technologies",
       "studyType": "Computer Science",
-      "startDate": "2004/12",
-      "endDate": "2002/12"
+      "startDate": "2002/12",
+      "endDate": "2004/12"
     }
   ],
   "skills": [

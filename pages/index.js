@@ -15,7 +15,7 @@ export default function Home() {
     <div className="relative">
       <DarkMode />
 
-      <div className="container mx-auto p-4 print:p-1 subpixel-antialiased">
+      <div className="container mx-auto p-4 print:px-1 subpixel-antialiased">
         <Head>
           <title>Resume</title>
           <link rel="icon" href="/favicon.ico" />

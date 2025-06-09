@@ -35,7 +35,7 @@ const Item = (props) => {
           </small>
         </div>
 
-        <span className="text-xs text-gray-400 font-mono md:w-auto w-12 text-center ml-2 print:mr-8 print:flex">
+        <span className="text-[10px] text-gray-400 font-mono md:w-auto w-12 text-center ml-2 print:mr-8 print:flex">
           <span className="block md:inline">{props.startDate}</span>
           <span className="px-1 md:inline hidden print:block">-</span>
           <span>{props.endDate ? props.endDate : 'Present'}</span>

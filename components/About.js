@@ -25,7 +25,7 @@ const About = (props) => {
           </div>
         </div>
 
-        <div className="relative flex my-2 mx-4 print:ml-6 print:top-5 print:self-end">
+        <div className="relative flex my-2 mx-4 print:ml-6 print:self-end">
           <Link href={twitter.url} className="relative z-10">
             <span className="inline-flex items-center justify-center w-20 h-20 md:w-16 md:h-16 rounded-full ring-4 ring-green-400 ring-offset-2 dark:ring-offset-gray-900 text-center text-4xl font-black print:text-slate-700">
               {info.name
