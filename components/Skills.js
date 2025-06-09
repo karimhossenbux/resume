@@ -20,7 +20,7 @@ const Skills = ({ items, highlightedSkills }) => {
             <div>
               {item.keywords.map((keyword, kindex) => (
                 <span
-                  className={`inline-flex mr-2 text-xs font-semibold text-opacity-70 text-black border px-1 rounded border-purple-100 dark:border-gray-900 transition-colors ${
+                  className={`inline-flex mr-2 print:mr-1 text-xs font-semibold text-opacity-70 text-black border px-1 rounded border-purple-100 dark:border-gray-900 transition-colors ${
                     highlightedSkills?.includes(keyword)
                       ? 'bg-green-400'
                       : 'dark:bg-gray-600 bg-purple-50'

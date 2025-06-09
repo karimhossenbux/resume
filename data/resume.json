@@ -35,12 +35,11 @@
       "position": "Senior Software Engineer",
       "startDate": "2018/03",
       "summary": [
-        "Revamped and optimized the main <a class='underline' target='_blank' href='https://www.ef.com/wwen/blog/language/'>EF Go Blog</a> (50+ languages and 2+ millions in organic traffic).",
-        "Migrated WP multisites to Next.js (React) + Storyblok, improving site performance and user experience",
-        "Developed a localization tool around Storyblok API, enabling efficient management of translations by Editors.",
-        "Collaborated on building a React UI library using Tailwind CSS to maintain EF Language brand consistency throughout all projects.",
-        "Contributed on our main API to deliver fast and reliable data (destinations, languages, translated contents, etc...) to our frontend applications.",
-        "Managed both maintenance and development of various Next.js projects based of Figmas designs and stakeholder requirements."
+        "Led performance and reliability efforts, including implementing server-side rendering, optimizing image delivery, reducing build times by 100%, and collaborating on comprehensive end-to-end and unit test coverage resulting in 50% fewer production incidents year-over-year",
+        "Own and deliver evolution of the EF Go Blog, a global content platform supporting 50+ languages and over 2 million monthly visits. Led the migration from a WordPress multisite stack to a modern Next.js + Storyblok architecture, boosting site performance by ~80% and improving Core Web Vitals scores",
+        "Co-developed an in-house React + Tailwind CSS design system used across multiple EF properties to ensure consistent branding and accelerate feature delivery",
+        "Designed and shipped a robust localization tool integrated with Storyblok’s API empowering editors to manage translations across dozens of languages with improved workflow efficiency",
+        "Collaborated closely with product owners, UX designers, and QA to interpret Figma mocks and stakeholder feedback into working Next.js applications across desktop and mobile"
       ],
       "website": "https://www.ef.com",
       "skills": [
@@ -83,8 +82,7 @@
       "position": "Founder",
       "startDate": "2018/01",
       "summary": [
-        "Developed a cryptocurrency portfolio tracker compatible with macOS, Windows, and Linux, currently expanding to iOS/Android using React Native.",
-        "Managed all aspects of the app, including development, design, sales/licensing, and support."
+        "Full product lifecycle lead: architecture, frontend/backend code, UI/UX design, licensing negotiations, and end-user support"
       ],
       "website": "https://moonitor.io",
       "skills": [
@@ -101,32 +99,16 @@
       ]
     },
     {
-      "company": "Merch.dev",
-      "endDate": "2024/02",
-      "highlights": [],
-      "position": "Founder",
-      "startDate": "2022/04",
-      "summary": [
-        "Launched and oversaw operations for a Shopify e-commerce platform tailored to developers, offering a large range of merchandise.",
-        "Fun side project to get better at design and marketing."
-      ],
-      "website": "https://merch.dev",
-      "skills": [
-        "JavaScript",
-        "Node",
-        "Shopify",
-        "Figma",
-        "Sketch"
-      ]
-    },
-    {
       "company": "Game Publishing / Exoty",
       "endDate": "2017/12",
       "highlights": [],
       "position": "Full-Stack Developer",
       "startDate": "2010/08",
       "summary": [
-        "Managed a network of 400+ gambling websites, implementing over 100 sites from scratch based on stakeholder requirements."
+        "Designed and launched over 100 custom gambling websites tailored for mobile and desktop platforms",
+        "Developed a custom CMS and reusable theming system to streamline deployment across Exoty’s white-label clients, cutting launch time by 100%",
+        "Integrated payment gateways, real-time multiplayer features, and live chat components to support competitive social games",
+        "Implemented monitoring and logging systems to detect broken pages, expired domains, and dropped rankings, preserving SEO performance across the network."
       ],
       "website": "https://www.exoty.com",
       "skills": [
@@ -136,7 +118,8 @@
         "UI/UX",
         "MySQL",
         "PHP",
-        "Laravel"
+        "Laravel",
+        "Python"
       ]
     },
     {
@@ -146,8 +129,8 @@
       "position": "Web Developer",
       "startDate": "2010/01",
       "summary": [
-        "Implemented new features on various client websites, including Liceu Theatre, Knorr, and Moventis.",
-        "Contributed to both front-end and back-end development tasks."
+        "Developed responsive marketing sites for high-profile clients including Liceu Theatre, Knorr, and Moventis, ensuring pixel-perfect fidelity to design specs",
+        "Collaborated directly with designers and PMs in an agency setting, working under tight deadlines and launch schedules"
       ],
       "website": "https://mariabarcelona.com/",
       "skills": [
@@ -166,8 +149,7 @@
       "position": "Web Developer",
       "startDate": "2008/03",
       "summary": [
-        "Managed a network of 1200+ gambling websites using WordPress, Drupal, and dynamic/static stack.",
-        "Developed a centralized backend for serving dynamic contents, widgets and ads across all networks."
+        "Maintained and scaled a network of 1,200+ gambling sites built with WordPress and Drupal, automating content updates with cron jobs and ad serving systems"
       ],
       "website": "https://cmedia.es",
       "skills": [
@@ -201,14 +183,14 @@
     },
     {
       "institution": "Lycée de Bellepierre",
-      "area": "BTS - Application Development and Systems Integration",
+      "area": "Application development & systems integration",
       "studyType": "Computer Science",
       "startDate": "2004/12",
       "endDate": "2006/12"
     },
     {
       "institution": "Lycée Antoine Roussin",
-      "area": "Baccalauréat in Tertiary Sciences and Technologies",
+      "area": "Baccalauréat in sciences and technologies",
       "studyType": "Computer Science",
       "startDate": "2004/12",
       "endDate": "2002/12"
